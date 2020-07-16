@@ -1,5 +1,5 @@
 # Instasplash
-An app to seach photos on unsplash.com and download
+An app to seach photos on unsplash.com and download created in React Natie
 
 How to use
 
