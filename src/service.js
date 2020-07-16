@@ -5,12 +5,6 @@ const http = Axios.create({
     timeout: 300000,
 });
 
-// const unsplash = new Unsplash({ accessKey: "QY5l98wJh1aADPlEYenDT_4fAnLw3I1oYi381xrurr4" });
-
-
-
-
-
 export const get = async (url) => {
     return http.get(url).then(response => {
         return response.data;
